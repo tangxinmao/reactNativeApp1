@@ -14,6 +14,9 @@ import {
 } from 'react-native';
 
 export default class Setup extends Component {
+    static  defaultProps={
+     name:'wangguoqin'
+}
     constructor(props) {
         super(props);
         this.state={
