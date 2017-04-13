@@ -14,14 +14,15 @@ import {
 } from 'react-native';
 
 export default class Setup extends Component {
+    state={
+        count:3
+    }
     static  defaultProps={
      name:'wangguoqin'
 }
     constructor(props) {
         super(props);
-        this.state={
-            count:0
-        }
+
     }
 
     componentWillMount(){
